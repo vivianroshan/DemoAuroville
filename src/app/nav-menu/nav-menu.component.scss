@@ -1,0 +1,75 @@
+.header {
+    background-color: #fdfef9;
+
+    .nav1 {
+        img {
+            padding-top: 17px;
+            padding-left: 3px;
+        }
+        .logo {
+            margin: 16px;
+            color: #434343;
+        }
+        .logo:hover {
+            color: #909090;
+        }
+        button {
+            margin-right: 4px;
+        }
+        .ApplicationName {
+            margin-top: 5px;
+            margin-right: 5px;
+        }
+        .spacer {
+            flex: 1;
+        }
+        height: auto;
+        display: flex;
+        align-items: center;
+        background-color: #fdfef9;
+        color: #434343;
+        font-weight: 600;
+        padding-top: 3px;
+    }
+
+    .nav2 {
+        .spacer {
+            flex: 1;
+        }
+        height: auto;
+        display: flex;
+        align-items: center;
+        background-color: #fdfef9;
+        color: white;
+        font-weight: 600;
+        padding-top: 10px;
+        button {
+            border-width: 0;
+            background-color: #fdfef9;
+            margin-right: 8px;
+            color: #434343;
+        }
+        button:hover {
+            color: #909090;
+            background-color: #fdfef9;
+        }
+    }
+}
+
+.header_sticky {
+    .main_navbar {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        .nav1,.nav2 {
+            padding-left: 10px;
+        }
+        .nav1{
+            img{
+                height: 75px;
+            }
+        }
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,25 @@
+<div class="container-fluid header" [class.header_sticky]="header_variable">
+  <div class="navbar infobar">
+    <div class="spacer"></div>
+    WELCOME TO AUROVILLE! SIGN IN CREATE AN ACCOUNT
+  </div>
+  <div class="main_navbar">
+    <div class="navbar nav1">
+      <img src="../assets/logo.png  " alt="missing logo ">
+      <div class="spacer"></div>
+      <mat-icon class="logo">search</mat-icon>
+      <mat-icon class="logo">shopping_cart</mat-icon>
+    </div>
+    <div class="navbar nav2">
+      <div *ngFor="let tab of tabs">
+        <button class="menu_buttons" routerLink="{{tab}}">{{tab}}</button>
+      </div>
+      <!-- <button routerLink="home">Home</button>
+    <button routerLink="showbook" >Search Books</button>
+    <button routerLink="cart">Cart</button>
+    <button routerLink="orderbook">Orders</button> -->
+      <div class="spacer"></div>
+    </div>
+  </div>
+</div>
+<div style="height: 1000px; background-color: red;"></div>
